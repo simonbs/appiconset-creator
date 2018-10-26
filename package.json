@@ -1,0 +1,23 @@
+{
+  "name": "appiconset-creator",
+  "version": "1.0.0",
+  "description": "Creates an appiconset for iOS projects.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "appicon",
+    "ios",
+    "xcode",
+    "appiconset",
+    "app",
+    "icon"
+  ],
+  "author": "Simon B. Støvring",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0"
+  },
+  "bin": {
+    "appiconset-creator": "index.js"
+  }
+}

@@ -1,6 +1,12 @@
 # appiconset-creator
 
-Creates .appiconset directories for iOS projects. I created this small tool because I got tired of dragging app icons into Xcode.
+Creates .appiconset directories for iOS projects.
+
+I created this small tool because I got tired of dragging app icons into Xcode. The tool doesn't make any assumptions about your file namings. Instead looks at the actual sizes of your input files to determine where they go in the appiconset.
+
+## Requirements
+
+The tool depends on the `identify` command in ImageMagick. There's a good chance you already have ImageMagick installed, otherwise you can install it using `brew update && brew install imagemagick`.
 
 ## Installation
 
